@@ -1,0 +1,34 @@
+body{
+    height: 1300px !important;
+    width: 100%;
+    background-image: url('./ProgramasJS/assets/a.jpg');
+    image-rendering: optimizeSpeed;
+    image-resolution: 100%;
+    background-repeat:round;
+}
+table {
+    width: 333px !important;
+    height: 333px !important;
+table-layout: fixed;
+border-collapse: collapse;
+border: 8px solid purple;
+padding: 3%;
+background-color: black;
+color: white;
+    text-align: center;
+    position: relative;
+    left: 35% !important;
+    ;
+font-family: 'helvetica', helvetica, arial, sans-serif !important;
+box-shadow: inset;
+}
+td{
+    border: 1px solid white;
+}
+
+h1 {
+    color: white;
+}
+input{
+    text-align: center;
+}
