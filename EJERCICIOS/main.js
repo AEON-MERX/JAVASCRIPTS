@@ -58,7 +58,7 @@
      function calcularPuntos() {
          var cantidadVictorias = parseInt(prompt("Escribe número de victorias"));
          var cantidadEmpates = parseInt(prompt("escribe el número de empates"));
-         var puntosTotales = "El total de puntos es:"+ cantidadVictorias * 3 + cantidadEmpates;
+         var puntosTotales = "El total de puntos es:" + ((cantidadVictorias * 3) + cantidadEmpates);
          imprimir(puntosTotales);
        }
      
