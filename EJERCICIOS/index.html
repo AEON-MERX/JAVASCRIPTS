@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programas</title>
+</head>
+<body>
+    
+<?php
+echo "My first PHP script!";
+?>
+    <script> tanque = 50
+    distanciaGasolina = 480 
+    distanciaAlcohol = 300
+    </script>
+    <h3 id="titulo"></h3>
+    <script>
+    palabra = document.getElementById('titulo').innerHTML = '<h1> ¿ALCOHOL O GASOLINA? </h1>' </script>
+        Si un carro tiene un tanque de <script>document.write(tanque)</script> litros.
+         Usando gasolina y consumiendo todo el tanque se hace un recorrido de <script>document.write(distanciaAlcohol)</script> kilómetros. 
+          ¿Cuál es la eficiencia del carro usando gasolina? o sea,
+           ¿cuántos kilómetros recorre el carro  por cada litro de gasolina?
+    <script>
+        function calcular(litros,distancia){ var resultado = distancia/litros 
+            document.write(resultado)
+        }
+    </script>
+    <h6> El carro por cada litro de gasolina recorre <script>calcular(tanque,distanciaGasolina)</script> km</h6>
+  Por otro lado, 
+    si el carro usa alcohol como combustible,el mismo tanque de <script>document.write(tanque)</script>
+     litros hace un recorrido de <script>document.write(distanciaGasolina)</script> kilómetros. 
+     ¿Cuál es el la eficiencia del carro usando alcohol? 
+    <h6> El carro por cada litro de alcohol recorre <script>calcular(tanque,distanciaAlcohol);</script>km </h6>
+</body>
+</html>
